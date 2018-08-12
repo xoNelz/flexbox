@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  background-color: SkyBlue;
+  line-height: 100px;
+  color: khaki;
+}
+
+h2 {
+  margin: 10px;
+}
