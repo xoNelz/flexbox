@@ -16,14 +16,72 @@ h2 {
   margin: 10px;
 }
 
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  color: Lightslategrey;
+  line-height: 125px;
+}
+
 .container {
   border: 2px solid skyblue;
+  display: flex;
 }
 
 .week {
+  display: flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
 
+.sec-background {
+  background-color: snow;
 }
 
 .row {
-  
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.square {
+  width: 125px;
+  height: 125px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day.square {
+  background-color: skyblue;
+  border: 1px solid white;
+}
+
+.task.square {
+  background-color: Khaki;
+  border: 1px solid white;
+}
+.task p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.reminders {
+  background-color: khaki;
+  display: inline-flex;
+  flex-grow: 2;
+}
+
+.reminders h3 {
+  width: 100%;
+  margin: 10px;
+  line-height: 90px;
+  font-size: 24px;
+}
+
+footer {
+  font-size: 24px;
 }
